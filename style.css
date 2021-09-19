@@ -9,8 +9,7 @@
 }
 
 .body-ws {
-  background-image: url(/bg.jpg);
-  background-size: cover;
+  background-color: darkcyan;
 }
 
 .body-index {
