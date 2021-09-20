@@ -10,7 +10,7 @@ function checkValue() {
     (ing3 == "gowno" || ing3 == "dupa" || ing3 == "fiut" || ing3 == "maslo") &&
     (ing4 == "gowno" || ing4 == "dupa" || ing4 == "fiut" || ing4 == "maslo")
   ) {
-    document.getElementById("form").setAttribute("action", "../wskazowka.html");
+    document.getElementById("form").setAttribute("action", "../wskazowka/wskazowka.html");
   } else {
     console.log("Error");
   }
