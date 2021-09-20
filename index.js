@@ -2,16 +2,21 @@ function checkValue() {
   var ing1 = document.getElementById("input1").value;
   var ing2 = document.getElementById("input2").value;
   var ing3 = document.getElementById("input3").value;
-  var ing4 = document.getElementById("input4").value;
 
   if (
-    (ing1 == "gowno" || ing1 == "dupa" || ing1 == "fiut" || ing1 == "maslo") &&
-    (ing2 == "gowno" || ing2 == "dupa" || ing2 == "fiut" || ing2 == "maslo") &&
-    (ing3 == "gowno" || ing3 == "dupa" || ing3 == "fiut" || ing3 == "maslo") &&
-    (ing4 == "gowno" || ing4 == "dupa" || ing4 == "fiut" || ing4 == "maslo")
+    (ing1 == "syrop waniliowy" || ing1 == "sok z cytryny" || ing1 == "wodka") &&
+    (ing2 == "syrop waniliowy" || ing2 == "sok z cytryny" || ing2 == "wodka") &&
+    (ing3 == "syrop waniliowy" || ing3 == "sok z cytryny" || ing3 == "wodka")
   ) {
-    document.getElementById("form").setAttribute("action", "https://tellur89.github.io/wskazowka/wskazowka.html");
+    document
+      .getElementById("form")
+      .setAttribute(
+        "action",
+        "https://tellur89.github.io/wskazowka/wskazowka.html"
+      );
   } else {
-    console.log("Error");
+    alert(
+      "Spróbuj jeszcze raz. Pamiętaj, nie używaj polskich znaków i pisz z małej litery"
+    );
   }
 }

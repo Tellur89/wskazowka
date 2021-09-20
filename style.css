@@ -25,6 +25,8 @@
   flex-direction: column;
   height: 40rem;
   justify-content: center;
+  padding: 2rem;
+  text-align: center;
 }
 
 input {
@@ -36,4 +38,10 @@ input {
 label {
   font-size: 2rem;
   font-weight: 600;
+}
+
+span {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
 }
