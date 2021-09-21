@@ -10,6 +10,17 @@
 
 .body-ws {
   background-color: darkcyan;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+h2 {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .body-index {
